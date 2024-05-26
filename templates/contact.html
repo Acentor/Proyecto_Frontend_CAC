@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Gamers CAC</title>
+
+    <link
+      rel="icon"
+      type="image/vnd.microsoft.icon"
+      href="../static/img/favheadset.ico"
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="../static/css/contact.css?v=1.1">
+    <script
+    src="https://kit.fontawesome.com/eb496ab1a0.js"
+    crossorigin="anonymous"
+  ></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="../index.html"><img src="../static/img/logo.png" alt="Logo"></a>
+      </div>
+      <span class="logo-texto">
+        <a href="../index.html" class="log">GAMERS CAC</a>
+      </span>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Recomendados</a></li>
+          <li><a href="#">F2P</a></li>
+          <li><a href="#">Proximamente</a></li>
+        </ul>
+      </nav>
+      <a class="btn" href="../templates/register.html"
+        >Registro</a
+      >
+      <a class="btn" href="../templates/login.html">Ingreso</a>
+    </header>
+
+    <div class="flex-contenedor">
+      <section class="form-wrapper">
+        <h2>
+          Contacto
+          <a href="../static/img/technical-support.png"
+            ><img src="../static/img/technical-support.png" alt="soporte"
+          ></a>
+        </h2>
+        <form action="#" id="formRegister" method="GET" novalidate>
+          <div class="form-control">
+            <label>Nombre</label>
+            <input
+              aria-label="firstname"
+              type="text"
+              required
+              maxlength="25"
+              minlength="3"
+              name="firstname"
+              id="firstname"
+            >
+          </div>
+          <div class="error" id="error-firstname"></div>
+          <div class="form-control">
+            <label>Apellido</label>
+            <input
+              aria-label="lastname"
+              type="text"
+              required
+              maxlength="25"
+              minlength="3"
+              name="lastname"
+              id="lastname"
+            >
+          </div>
+          <div class="error" id="error-lastname"></div>
+
+          <div class="form-control">
+            <label>Email</label>
+            <input
+              aria-label="email"
+              type="email"
+              required
+              name="email"
+              id="email"
+            >
+          </div>
+          <div class="error" id="error-email"></div>
+
+          <div class="form-control">
+            <select
+              aria-label="reason"
+              name="reason"
+              required
+              id="reason"
+              class="form-select"
+            >
+              <option value="">Motivo del Contacto</option>
+              <option value="CON">Consultas</option>
+              <option value="SU">Sugerencias</option>
+              <option value="COM">Comentarios</option>
+              <option value="REP">Reporte de errores</option>
+              <option value="REC">Reclamos</option>
+              <option value="OT">Otros</option>
+            </select>
+          </div>
+          <div class="error" id="error-reason"></div>
+
+          <div class="form-control2">
+            <label>Escribe aquí tus comentarios</label>
+            <textarea
+              aria-label="textarea"
+              required
+              name="textarea"
+              id="textarea"
+            ></textarea>
+          </div>
+          <div class="error" id="error-message"></div>
+
+          <div>
+            <h3>Dinos tu genero preferido</h3>
+            <br >
+            <input type="radio" name="status" value="carreras" id="carreras">
+            <label for="carreras">Carreras</label>
+            <input type="radio" name="status" value="mmorpg" id="mmorpg">
+            <label for="mmorpg">MMORPG</label>
+            <input type="radio" name="status" value="moba" id="moba">
+            <label for="moba">MOBA</label>
+            <input
+              type="radio"
+              name="status"
+              value="plataforma"
+              id="plataforma"
+            >
+            <label for="plataforma">Plataforma</label>
+            <input type="radio" name="status" value="rpg" id="rpg" >
+            <label for="rpg">RPG</label>
+            <input type="radio" name="status" value="shooter" id="shooter">
+            <label for="shooter">Shooter</label>
+            <input type="radio" name="status" value="otro" id="otro">
+            <label for="otro">Otro</label>
+          </div>
+          <div class="error" id="error-gender"></div>
+
+          <button type="button" id="btn-send">Enviar</button>
+        </form>
+      </section>
+    </div>
+    <footer class="pie-pagina">
+      <div class="grupo-1">
+        <div class="box">
+          <figure>
+            <a href="../templates/contact.html">
+              <img src="../static/img/numero-8.png" alt="Logo grupo 8" >
+            </a>
+          </figure>
+        </div>
+        <div class="box">
+          <h2>SOBRE NOSOTROS</h2>
+          <p>
+            Con mucho esfuerzo y empeño, realizamos esta Website, para ser
+            disfrutada por todos.
+          </p>
+          <p>
+            Si debuggear es el proceso de remover errores de código entonces
+            programar debe ser el proceso de ponerlos .- Edsger Dijkstra
+          </p>
+        </div>
+        <div class="box">
+          <h2>SIGUENOS</h2>
+          <div class="red-social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-youtube"></a>
+          </div>
+        </div>
+      </div>
+      <div class="grupo-2">
+        <small
+          >&copy; 2024 <b>Trabajo hecho para CAC </b> - Todos los Derechos
+          Reservados.</small
+        >
+      </div>
+    </footer>
+
+    <script src="../static/js/contact.js"></script>
+  </body>
+</html>

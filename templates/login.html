@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Ingreso - Gamers CAC</title>
+
+    <link
+      rel="icon"
+      type="image/vnd.microsoft.icon"
+      href="../static/img/favheadset.ico"
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="../static/css/register.css?v=1.1" >
+    <script
+    src="https://kit.fontawesome.com/eb496ab1a0.js"
+    crossorigin="anonymous"
+  ></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="../index.html"><img src="../static/img/logo.png" alt="Logo" ></a>
+      </div>
+      <span class="logo-texto">
+        <a href="../index.html" class="log">GAMERS CAC</a>
+      </span>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Recomendados</a></li>
+          <li><a href="#">F2P</a></li>
+          <li><a href="#">Proximamente</a></li>
+        </ul>
+      </nav>
+      <a class="btn" href="../templates/register.html"
+        >Registro</a
+      >
+      <a class="btn" href="../templates/login.html">Ingreso</a>
+    </header>
+    <div class="flex-contenedor">
+      <section class="form-wrapper">
+        <h2>Ingreso</h2>
+        <form action="#" id="formRegister" method="GET" novalidate>
+          <div class="form-control">
+            <label>Email</label>
+            <input
+              aria-label="email"
+              type="email"
+              required
+              name="email"
+              id="email"
+            >
+          </div>
+          <div class="error" id="error-email"></div>
+          <div class="form-control">
+            <label>Contraseña</label>
+            <input
+              aria-label="password"
+              type="password"
+              required
+              maxlength="25"
+              minlength="5"
+              name="password"
+              id="password"
+            >
+          </div>
+          <div class="error" id="error-password"></div>
+
+          <button type="button" id="btn-send">Ingresar</button>
+          <div class="form-help">
+            <a href="register.html">¿No tienes una cuenta?</a>
+          </div>
+        </form>
+      </section>
+    </div>
+    <footer class="pie-pagina">
+      <div class="grupo-1">
+        <div class="box">
+          <figure>
+            <a href="../templates/contact.html">
+              <img src="../static/img/numero-8.png" alt="Logo grupo 8" >
+            </a>
+          </figure>
+        </div>
+        <div class="box">
+          <h2>SOBRE NOSOTROS</h2>
+          <p>
+            Con mucho esfuerzo y empeño, realizamos esta Website, para ser
+            disfrutada por todos.
+          </p>
+          <p>
+            Si debuggear es el proceso de remover errores de código entonces
+            programar debe ser el proceso de ponerlos .- Edsger Dijkstra
+          </p>
+        </div>
+        <div class="box">
+          <h2>SIGUENOS</h2>
+          <div class="red-social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-youtube"></a>
+          </div>
+        </div>
+      </div>
+      <div class="grupo-2">
+        <small
+          >&copy; 2024 <b>Trabajo hecho para CAC </b> - Todos los Derechos
+          Reservados.</small
+        >
+      </div>
+    </footer>
+
+    <script src="../static/js/login.js"></script>
+  </body>
+</html>
