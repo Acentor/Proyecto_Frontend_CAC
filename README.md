@@ -12,4 +12,4 @@ En el grupo. Se eligió hacer una página basada en Juegos de PC (nombre: GAMERS
 
 Realice el Index de la página, los formularios de logueo y registro (ubicados en el header), el formulario de contacto (ubicado en el pie de página)
 
-Diseñe el logo y elegí la paleta de colores de un grupo obtenido de paletadecolores.com.ar
+Diseñe el logo y elegí la paleta de colores de un grupo obtenido de paletadecolores.com.ar y se selecciono una fuente general de fonts.google.com
