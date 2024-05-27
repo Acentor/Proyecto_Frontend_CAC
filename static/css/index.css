@@ -279,5 +279,111 @@ body {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
         padding: 35px 0px;
+
+
+    }
+    .table {
+        border: 0px;
+        
+    }
+    .table caption {
+        font-size: medium;
+    }
+    .table thead {
+        display: none;
+    }
+    .table tr {
+        margin-bottom: 8px;
+        border-bottom: 4px solid var(--third-bis-color);
+        display: block;
+    }
+    .table th .table td {
+        font-size: 12px;
+    }
+    .table td {
+        display: block;
+        border-bottom: 4px solid var(--third-bis-color);
+        text-align: right;
+    } 
+    .table td:last-child {
+        border-bottom: 0px;
+    }
+    .table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        text-transform: uppercase;
+        float: left;
     }
 }
+
+.flexi {
+    background-image: url(../img/carbon-fiber-background-texture.jpg);
+    background-size: 60vw;
+    background-color: #181419be;
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+
+.flexi h1 {
+    background-image: url(../img/carbon-fiber-background-texture.jpg);
+    background-size: 60vw;
+    background-color: #181419be;
+    color: whitesmoke;
+    text-shadow: 3px 2px var(--third-color);
+    font-size: 350%;
+    font-weight: bold;
+}
+
+.flexi2{
+    width: 90%;
+    background-color: whitesmoke;
+}
+
+.table {
+width: 100%;
+border: 1px solid var(--bg-input-color);
+border-collapse: collapse;
+margin: 0;
+padding: 0;
+table-layout: fixed;
+}
+
+
+
+.table caption {
+    font-size: large;
+    text-transform: uppercase;
+}
+
+.table tr {
+    background-color: var(--secondary-color);
+    border: var(--primary-color);
+}
+
+
+.table th, .table td {
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid var(--third-bis-color);
+}
+
+.table thead th {
+    text-transform: uppercase;
+    background-color: var(--third-color);
+}
+
+.table tbody tr:hover {
+    background-color: rgba(0, 153, 41, 0.3);
+}
+
+.table tbody td:hover {
+    background-color: rgba(0, 153, 41, 0.2);
+}
+
+.tab {
+    width: 300px;
+  }
