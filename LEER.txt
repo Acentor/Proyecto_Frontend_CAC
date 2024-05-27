@@ -9,6 +9,8 @@ Con el Grupo se llevó a cabo 2 reuniones por Discor y algunos comentarios por w
 
 En el grupo. Se eligió hacer una página basada en Juegos de PC (nombre: GAMERS CAC) se seleccionó la paleta basada en verde y negro, y se dividieron las tareas.
 
-Realice el Index de la página, los formularios de logueo y registro (ubicados en el header), el formulario de contacto (ubicado en el pie de página)
+Realice el Index de la página, los formularios de logueo y registro (ubicados en el header), el formulario de contacto (ubicado en el pie de página) la pagina de resultados por categorias (ubicado enlace aun lado en la barra categoria)
 
 Diseñe el logo y elegí la paleta de colores de un grupo obtenido de paletadecolores.com.ar y se selecciono una fuente general de fonts.google.com
+
+Solo me falto la pagina de muestra de cada juego con detalles, videos, imagenes y descripcion
