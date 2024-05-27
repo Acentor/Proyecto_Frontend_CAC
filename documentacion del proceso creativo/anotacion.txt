@@ -1,0 +1,124 @@
+trabajo:
+página inicio (Benja)
+pagina de registro (juan)
+pagina de contacto (juan)
+pagina de categoria (Nico)
+	Recomendado
+	F2P
+	Proximamente
+pagina de juego.(Nico)
+
+Color de fondo:
+Negro
+
+color para las categorias:
+Verde
+
+letras:
+Blancas
+
+
+Juegos:
+Crisis shooter, multihero , Counter, age of empires, need for speed.
+
+Juegos:
+Genshin, lol, 
+
+Juegos:
+valorant, rocket league, Honkai star rail, Fortnite, sea of thieves, 
+albion online, black desert, left 4 dead 2, Dota 2, smite
+
+
+
+Shooter:
+Crisis
+Counter Striker 2
+Valorant
+Fortnite
+Left 4 dead 2
+
+Moba:
+League of legends
+Dota 2
+Smite
+
+Mmorpg:
+Albion online
+Black desert
+Throne of liberty
+Blue Protocol
+Tera
+
+Rpg:
+Genshin
+Honkai star rail
+Honkai 3D
+Wuthering Waves
+
+Carreras:
+Need for speed
+Forza
+Rocket league
+
+Plataforma:
+Multihero
+Multiversus
+Dragon ball z fighter
+Mortal kombat 1
+Injustice 2
+Street Fighter 6
+Tekken 8
+
+
+F2P:
+Counter
+Valorant
+Fortnite
+League of legends
+Smite
+Dota2
+Albion
+Tera
+Throne of liberty
+Blue Protocol
+Genshin
+Honkai star rail
+Honkai 3D
+Wuthering Waves
+Rocket league
+Multihero
+Multiversus
+
+cada uno nueve juegos
+Nico:
+Crisis
+Counter Striker 2
+Valorant
+Fortnite
+Left 4 dead 2
+League of legends
+Dota 2
+Smite
+Albion online
+
+Juan:
+Black desert
+Throne of liberty
+Blue Protocol
+Tera
+Genshin
+Honkai star rail
+Honkai 3D
+Wuthering Waves
+Need for speed
+
+Benj:
+Forza
+Rocket league
+Multihero
+Multiversus
+Dragon ball z fighter
+Mortal kombat 1
+Injustice 2
+Street Fighter 6
+Tekken 8
