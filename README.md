@@ -17,4 +17,6 @@ Realice el Index de la página, los formularios de logueo y registro (ubicados e
 
 Diseñe el logo y elegí la paleta de colores de un grupo obtenido de paletadecolores.com.ar y se selecciono una fuente general de fonts.google.com
 
-Solo me falto la pagina de muestra de cada juego con detalles, videos, imagenes y descripcion
+********
+
+En la ultima carga se realizo la pagina de muestra de juego con enlace, videos, imagenes y descripcion, correcciones en los css para cortes responsive y seteo temporizador de los avisos en el control de formularios
