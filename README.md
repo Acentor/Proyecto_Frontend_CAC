@@ -4,12 +4,9 @@
 
 Proyecto Frontend para  el curso de Full Stack Python de CAC
 
-Sobre el proyecto, el grupo ( comenzo con 4 personas Benjamin, Nicolas Paz, Camilo Campos y yo Juan Artigas
+Proyecto en solitario por deserción de participantes
 
-Durante el proceso se dieron de baja Benjamin, a poco de comenzar, Camilo y Nicolas Abandonaron durante esta semana alegando temas de tiempo y estudio, sin aviso previo.
-
-Con el Grupo se llevó a cabo 2 reuniones por Discor y algunos comentarios por whatsapp, el grupo no progreso mucho,
-adjunto las ideas generadas del grupo como documentación y el trabajo de front que llegue a desarrollar hasta la fecha.
+Con el Grupo se llevó a cabo reuniones adjunto las ideas generadas del grupo como documentación y el trabajo de front que llegue a desarrollar hasta la fecha.
 
 En el grupo. Se eligió hacer una página basada en Juegos de PC (nombre: GAMERS CAC) se seleccionó la paleta basada en verde y negro, y se dividieron las tareas.
 
